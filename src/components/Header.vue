@@ -21,7 +21,9 @@
 
         </div>
     </div>
-    <Promos />
+    <Promos 
+    saleprice = '39'
+    />
 </header>
 </template>
 
