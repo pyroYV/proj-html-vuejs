@@ -27,6 +27,7 @@ export default {
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 a{
     color: white;
+    text-decoration: none;
     &:hover{
       color: whitesmoke;
     }
