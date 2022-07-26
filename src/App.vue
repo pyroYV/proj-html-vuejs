@@ -17,6 +17,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "~bootstrap/scss/bootstrap";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +26,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+@font-face {
+  font-family: "AbrilFatface";
+  font-display: auto;
+  src: local('AbrilFatface'); 
+  url:("./fonts/AbrilFatface-Regular.ttf");
 }
 </style>
