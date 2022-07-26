@@ -31,6 +31,7 @@ export default {
     right: 1%;
     top: 12%;
     color: #33475b;
+    z-index: 3;
     .promotion{
         background-color: white;
         font-weight: bolder;
