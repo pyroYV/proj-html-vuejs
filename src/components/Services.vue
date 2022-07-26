@@ -8,9 +8,10 @@
             Services
         </h1>
     </div>
-    <div class="row">
-    <ServiceCard
-    :services = 'services'
+    <div class="row p-1">
+    <ServiceCard  class="col-4"
+    v-for="(item, index) in services" :key="index"
+    :item = 'item'
     />
     </div>
     <Button
@@ -34,17 +35,17 @@ export default {
                 {
                     service:'Trim & Cut',
                     description: 'Avada Barbers are experts in the lickety split trim and hair cut. Quick but careful and ridiculously good looking.',
-                    img:'avadabarbers-trimcut-icon-before.png'
+                    img:'/img/avadabarbers-trimcut-icon-before.png'
                 },
                 {
                     service:'Wash & Dry',
                     description: 'Take a seat in our fine leather chairs,lean back and let us lather you a fresh head in a luxurious fashion',
-                    img:'avadabarbers-washndry-icon.png'
+                    img:'/img/avadabarbers-washndry-icon.png'
                 },
                 {
                     service:'Beard Tidy',
                     description: 'Tame the tangles and untidy facial hairs like a gentleman with our Beard Tidy services from Avada Barbers',
-                    img:'avadabarbers-beardtrim-icon.png'
+                    img:'/img/avadabarbers-beardtrim-icon.png'
                 },
 
             ]
@@ -54,7 +55,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../assets/style/Colors.scss';
 @import '../assets/style/MixIn.scss';
 
@@ -65,6 +66,10 @@ export default {
         color: $TextGrey;
         font-size: 5rem;
     }
+}
+.row{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
     
 </style>
