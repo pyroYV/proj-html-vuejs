@@ -25,7 +25,7 @@ export default {
 @import '../assets/style/Colors.scss';
 
 #about{
-    height: 60vh;
+    height: 50vh;
     background-image: url('../../public/Img/avadabarbers-about-introbackground.jpg');
     background-size: cover;
     position: relative;
