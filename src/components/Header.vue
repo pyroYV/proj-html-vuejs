@@ -5,18 +5,18 @@
             :NavbarItems = "NavbarItems"
             />
         <div class="row p-2">
-            <div class="col-6 d-flex flex-column justify-content-center hero-left">
+            <div class="col-7 d-flex flex-column justify-content-center hero-left">
                 <h1>
                     Barber Shop
                 </h1>
-                <span class="fs-5">The Pinnacle of Male Grooming</span> 
+                <span class="fs-3">The Pinnacle of Male Grooming</span> 
                 <Button
                 class="align-self-start"
                 btnContent = 'Learn more'
                  />
             </div>
-            <div class="col-6">
-                <img src="../../public\Img\avadabarbers_hero_focalmirror-600x825.png" alt="">
+            <div class="col-5">
+                <img src="../../public\Img\avadabarbers_hero_focalmirror-800x1100.png" alt="">
             </div>
 
         </div>
@@ -69,7 +69,7 @@ export default {
 @import '../assets/style/Colors.scss';
 
     header{
-        height: 100vh;
+        height: 90vh;
         color: white;
         background-image: url('../../public/Img/avadabarbers-homepage-hero-bg.jpg');
         background-position: top;
@@ -77,10 +77,10 @@ export default {
         background-repeat: no-repeat;
         h1{
             font-family: 'Abril Fatface', sans-serif;
-            font-size: 5.8rem;
+            font-size: 6.5rem;
             padding: 2rem 0;
             position: relative;
-            color: $TextWhite;
+            color: $TextWhite !important;
             
             &:before{
                 content: '';
@@ -93,11 +93,8 @@ export default {
             }
         }
         .hero-left>*{
-            margin-bottom: 1rem;
+            margin-bottom: 2.5rem;
             color: $TextGrey;
-        }
-        img{
-            width: 100%;
         }
 
     }
