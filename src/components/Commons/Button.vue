@@ -20,7 +20,7 @@ export default {
     padding: 0.8rem 2.5rem;
     border: 2px solid;
     border-color: #ae8652;
-    color: #ae8652;
+    color: #ae8652 !important;
     font-size: 1.5rem;
     text-transform: uppercase;
 }

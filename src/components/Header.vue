@@ -9,7 +9,7 @@
                 <h1>
                     Barber Shop
                 </h1>
-                <span>The Pinnacle of Male Grooming</span> 
+                <span class="fs-5">The Pinnacle of Male Grooming</span> 
                 <Button
                 class="align-self-start"
                 btnContent = 'Learn more'
@@ -65,6 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/style/Colors.scss';
+
     header{
         height: 100vh;
         color: white;
@@ -77,6 +78,7 @@ export default {
             font-size: 6rem;
             padding: 2rem 0;
             position: relative;
+            color: $TextWhite;
             
             &:before{
                 content: '';
@@ -90,6 +92,7 @@ export default {
         }
         .hero-left>*{
             margin-bottom: 1rem;
+            color: $TextGrey;
         }
 
     }
