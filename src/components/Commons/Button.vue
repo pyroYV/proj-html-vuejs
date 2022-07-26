@@ -15,13 +15,20 @@ export default {
 </script>
 
 <style lang ="scss" scoped>
+@import '../../assets/style/Colors.scss';
+
+
 .bottone{
     text-align: center;
     padding: 0.8rem 2.5rem;
     border: 2px solid;
-    border-color: #ae8652;
-    color: #ae8652 !important;
+    border-color: $BrandColor;
+    color: $BrandColor !important;
     font-size: 1.5rem;
     text-transform: uppercase;
+    &:hover{
+      color:$BrandHover !important;
+      border-color: $BrandHover;
+    }
 }
 </style>
