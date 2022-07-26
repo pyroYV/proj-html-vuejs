@@ -77,7 +77,7 @@ export default {
         background-repeat: no-repeat;
         h1{
             font-family: 'Abril Fatface', sans-serif;
-            font-size: 6rem;
+            font-size: 5.8rem;
             padding: 2rem 0;
             position: relative;
             color: $TextWhite;
@@ -95,6 +95,9 @@ export default {
         .hero-left>*{
             margin-bottom: 1rem;
             color: $TextGrey;
+        }
+        img{
+            width: 100%;
         }
 
     }
