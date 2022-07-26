@@ -3,7 +3,6 @@
     <Header />
     <Main />
     <Footer />
-
   </div>
 </template>
 
@@ -26,14 +25,18 @@ export default {
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+a{
+    color: white;
+    &:hover{
+      color: whitesmoke;
+    }
+}
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+ul{
+  list-style: none;
+  li{
+    display: inline;
+  }
 }
 
 @font-face {
