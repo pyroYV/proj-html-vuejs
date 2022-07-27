@@ -67,7 +67,7 @@ export default {
             .bg-image{
                     img{
                         height: 552px;
-                        width: 600px;
+                        width: 550px;
                         filter: grayscale(100%) opacity(50%);
                         
                     }     
