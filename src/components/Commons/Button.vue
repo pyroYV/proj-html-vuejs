@@ -21,7 +21,7 @@ export default {
 .bottone{
     text-align: center;
     padding: 0.8rem 2.5rem;
-    border: 2px solid;
+    border: 3px solid;
     border-color: $BrandColor;
     color: $BrandColor !important;
     font-size: 1.5rem;
