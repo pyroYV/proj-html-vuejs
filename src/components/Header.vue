@@ -94,6 +94,11 @@ export default {
             margin-bottom: 2.5rem;
             color: $TextGrey;
         }
+        .col-5{
+            img{
+                height: 90%;
+            }
+        }
 
     }
 </style>

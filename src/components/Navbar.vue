@@ -29,7 +29,7 @@ export default {
 ul{
   li{
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 </style>
