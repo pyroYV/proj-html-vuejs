@@ -16,7 +16,7 @@
                  />
             </div>
             <div class="col-5">
-                <img src="../../public\Img\avadabarbers_hero_focalmirror-800x1100.png" alt="">
+                <img src="/Img/avadabarbers_hero_focalmirror-800x1100.png" alt="">
             </div>
 
         </div>

@@ -1,7 +1,7 @@
 <template>
 <div class="row justify-content-between pt-4">
     <div class="col-1 ps-4">
-      <img id="header-logo" src="../../public/Img/avadabarbers-logo-x1.png" alt="">
+      <img id="header-logo" src="/Img/avadabarbers-logo-x1.png" alt="">
     </div>
   <div class="col-2">
     <ul>

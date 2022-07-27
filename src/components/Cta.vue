@@ -4,10 +4,10 @@
         <div class="row">
             <div class="col-5 d-flex justfy-content-center align-items-center">
                 <div class="bg-image">
-                    <img src="../../public/Img/avadabarbers-second-blog-700x441.jpg" alt="">
+                    <img src="/Img/avadabarbers-second-blog-700x441.jpg" alt="">
                 </div>
                 <div class="image">
-                <img src="../../public/Img/shaving_butter-600x600.png" alt="Shaving Butter" >
+                <img src="/Img/shaving_butter-600x600.png" alt="Shaving Butter" >
                 </div>
             </div>
             <div class="col-7">
@@ -69,7 +69,6 @@ export default {
                         height: 552px;
                         width: 550px;
                         filter: grayscale(100%) opacity(50%);
-                        
                     }     
                 }
             }
