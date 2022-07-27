@@ -27,7 +27,28 @@ export default {
     },
     data() {
         return {
-            
+            products:[
+                {
+                    product:'Brush',
+                    price:'15.00',
+                    image:'brush_dark-600x600.png'
+                },
+                {
+                    product:'Scissors',
+                    price:'85.00',
+                    image:'scissors-600x600.png'
+                },
+                {
+                    product:'Hot Oil',
+                    price:'15.00',
+                    image:'hot_oil_dark-600x600.png'
+                },
+                {
+                    product:'Straight Razor',
+                    price:'30.00',
+                    image:'straight_razor_dark-600x600.png'
+                },
+            ]
         }
     },
 }
