@@ -23,17 +23,18 @@ export default {
     color:$BrandColor;
     text-align: center;
     *{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     h3{
         font-family: 'Abril Fatface', sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         
     }
     p{
-        font-size: 1.8rem;
-        line-height: 2rem;
-        
+        font-size: 1.5rem        
+    }
+    img{
+        width: 70%;
     }
 
 }
