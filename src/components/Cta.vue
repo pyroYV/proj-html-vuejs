@@ -20,11 +20,17 @@ export default {
     position: relative;
 
     .container-lg{
+        position: absolute;
         color: $TextGrey;
         background-color: $DarkGrey;
         border-top: 10px solid;
         border-color: $BrandColor;
         height: 45vh;
+        top: -5rem;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
     }
 }
 

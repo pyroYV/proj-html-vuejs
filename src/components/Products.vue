@@ -63,8 +63,8 @@ export default {
 @import '../assets/style/MixIn.scss';
 
 #products{
-    height: 100vh;
-    margin: 2rem 0;
+    height: 110vh;
+    margin: 2rem 0 0 0;
     padding-top: 8rem;
     background-image: url('../../public/Img/avadabarbers-reviewsbackground.jpg');
     background-size: cover;
