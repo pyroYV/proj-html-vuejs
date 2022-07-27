@@ -1,5 +1,5 @@
 <template>
-  <div class="container-lg text-center">
+  <div class="container-lg text-center" id="services">
     <div class="content d-flex justify-content-center flex-column">
         <h6>
             Mens grooming
@@ -17,6 +17,7 @@
     <Button
     btnContent = 'Read about our services'
     />
+ 
   </div>
 </template>
 
@@ -58,18 +59,19 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/style/Colors.scss';
 @import '../assets/style/MixIn.scss';
-
-.content{
-    margin: 0 auto;
-    margin-top: 5rem;
-    h1{
-        color: $TextGrey;
-        font-size: 5rem;
+#services{
+    margin-bottom: 20rem;
+    .content{
+        margin: 0 auto;
+        margin-top: 5rem;
+        h1{
+            color: $TextGrey;
+            font-size: 6rem;
+        }
+    }
+    .row{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 }
-.row{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-    
 </style>
