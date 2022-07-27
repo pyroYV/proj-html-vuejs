@@ -3,6 +3,7 @@
     <About />
     <Services />
     <Products />
+    <Cta />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import About from "./About.vue";
 import Services from "./Services.vue";
 import Products from "./Products.vue";
+import Cta from "./Cta.vue";
 
 export default {
     components:{
         About,
         Services,
-        Products
+        Products,
+        Cta
 
     }
     
