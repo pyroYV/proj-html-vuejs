@@ -68,7 +68,8 @@ export default {
                     img{
                         height: 552px;
                         width: 600px;
-                        filter: grayscale(100%);
+                        filter: grayscale(100%) opacity(50%);
+                        
                     }     
                 }
             }
@@ -87,7 +88,6 @@ export default {
         .col-7{
             padding:4rem 6rem;
             line-height: 2.5rem;
-            
         }
     }
 
