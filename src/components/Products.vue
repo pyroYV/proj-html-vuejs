@@ -73,6 +73,9 @@ export default {
             color: $TextGrey;
         }
     }
+    .row{
+        margin-bottom: 4rem;
+    }
     .triangle-bg{
     position: absolute;
     top: -99px;
