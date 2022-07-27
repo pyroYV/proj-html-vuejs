@@ -10,13 +10,14 @@
             Avada Grooming Products
         </h1>
     <div class="row">
-        <ProductCard class="col-3"
+    <ProductCard
+        class="col-3"
         v-for="(item, index) in products" :key="index"
         :item = 'item'
-        />
+    />
     </div>
     <Button
-    btnContent = 'Shop our product range'
+        btnContent = 'Shop our product range'
     />
     </div>
   </div>

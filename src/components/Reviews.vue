@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex text-center mt-5" id="reviews">
+  <div class="d-flex text-center flex-column mt-5" id="reviews">
     <div class="content">
         <h6>
             What people say
@@ -7,6 +7,9 @@
         <h1>
             Reviews
         </h1>
+    </div>
+    <div class="container-lg">
+        
     </div>
   </div>
 </template>
