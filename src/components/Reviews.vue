@@ -78,10 +78,10 @@ export default {
     }
     .triangle-bg{
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
     border-style: solid;
     border-width: 100px 50vw 0 50vw;
-    border-color: grey transparent transparent transparent;
+    border-color: white transparent transparent transparent;
     display: inline-block;
     }
 }
