@@ -5,6 +5,7 @@
     <Products />
     <Cta />
     <Reviews />
+    <Blog />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Services from "./Services.vue";
 import Products from "./Products.vue";
 import Cta from "./Cta.vue";
 import Reviews from "./Reviews.vue";
+import Blog from "./Blog.vue"
 
 export default {
     components:{
@@ -21,7 +23,8 @@ export default {
         Services,
         Products,
         Cta,
-        Reviews
+        Reviews,
+        Blog,
 
     }
     
