@@ -10,7 +10,10 @@
             Avada Grooming Products
         </h1>
     <div class="row">
-        
+        <ProductCard class="col-3"
+        v-for="(item, index) in products" :key="index"
+        :item = 'item'
+        />
     </div>
     <Button
     btnContent = 'Shop our product range'
@@ -21,9 +24,11 @@
 
 <script>
 import Button from "./Commons/Button.vue";
+import ProductCard from "./Commons/ProductCard.vue";
 export default {
     components:{
-        Button
+        Button,
+        ProductCard,
     },
     data() {
         return {
@@ -31,22 +36,22 @@ export default {
                 {
                     product:'Brush',
                     price:'15.00',
-                    image:'brush_dark-600x600.png'
+                    img:'/img/brush_dark-600x600.png'
                 },
                 {
                     product:'Scissors',
                     price:'85.00',
-                    image:'scissors-600x600.png'
+                    img:'/img/scissors-600x600.png'
                 },
                 {
                     product:'Hot Oil',
                     price:'15.00',
-                    image:'hot_oil_dark-600x600.png'
+                    img:'/img/hot_oil_dark-600x600.png'
                 },
                 {
                     product:'Straight Razor',
                     price:'30.00',
-                    image:'straight_razor_dark-600x600.png'
+                    img:'/img/straight_razor_dark-600x600.png'
                 },
             ]
         }
