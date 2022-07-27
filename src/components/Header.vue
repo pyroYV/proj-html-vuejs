@@ -30,7 +30,6 @@
 <script>
 import Navbar from './Navbar.vue';
 import Promos from './Promos.vue';
-import Hero from './Hero.vue';
 import Button from './Commons/Button.vue';
 
 
@@ -40,7 +39,6 @@ export default {
     components:{
         Navbar,
         Promos,
-        Hero,
         Button
     },
     data() {

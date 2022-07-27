@@ -11,7 +11,20 @@
                 </div>
             </div>
             <div class="col-7">
-                allora
+            <h6>
+                this months featured product
+            </h6>
+            <h1>
+                Shaving Butter
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore laudantium libero dolore velit. Quis dolore aperiam ea a magnam! Quam eos voluptate soluta praesentium quod odio doloribus consectetur corporis enim!
+            </p>
+            <div class="pt-4">
+                <Button
+                btnContent = 'buy now'
+                />
+            </div>
             </div>
         </div>
     </div>
@@ -19,13 +32,18 @@
 </template>
 
 <script>
+import Button from './Commons/Button.vue'
 export default {
-
+        components:{
+            Button
+        }
 }
 </script>
 
 <style lang="scss" scoped>
 @import '../assets/style/Colors.scss';
+@import '../assets/style/MixIn.scss';
+
 
 #cta{
     height: 50vh;
@@ -65,6 +83,11 @@ export default {
                 height: 100%;
             }
             }
+        }
+        .col-7{
+            padding:4rem 6rem;
+            line-height: 2.5rem;
+            
         }
     }
 
