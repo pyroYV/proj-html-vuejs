@@ -96,7 +96,7 @@ export default {
         }
         .col-5{
             img{
-                height: 90%;
+                width: 100%;
             }
         }
 
