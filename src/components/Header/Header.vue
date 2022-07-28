@@ -29,8 +29,8 @@
 
 <script>
 import Navbar from './Navbar.vue';
-import Promos from './Promos.vue';
-import Button from './Commons/Button.vue';
+import Promos from '../Promos.vue';
+import Button from '../Commons/Button.vue';
 
 
 
@@ -51,12 +51,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Colors.scss';
+@import '../../assets/style/Colors';
 
     header{
         height: 90vh;
         color: white;
-        background-image: url('../../public/Img/avadabarbers-homepage-hero-bg.jpg');
+        background-image: url('../../../public/Img/avadabarbers-homepage-hero-bg.jpg');
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
