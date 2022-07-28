@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import Button from "./Commons/Button.vue";
-import BlogPost from "./BlogPost.vue";
+import Button from "../Commons/Button.vue";
+import BlogPost from "./Cards/BlogPost.vue";
 
 export default {
   components:{
@@ -63,8 +63,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Colors.scss';
-@import '../assets/style/Mixin.scss';
+@import '../../assets/style/Colors.scss';
+@import '../../assets/style/Mixin.scss';
 
 #blog{
     background-color: $TextWhite;

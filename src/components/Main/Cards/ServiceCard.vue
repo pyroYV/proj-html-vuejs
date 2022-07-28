@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/style/Colors.scss';
+@import '../../../assets/style/Colors.scss';
 .service{
     *{
         margin-bottom: 2rem;

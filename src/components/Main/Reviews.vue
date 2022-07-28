@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import ReviewCard from "./Commons/ReviewCard.vue";
+import ReviewCard from "./Cards/ReviewCard.vue";
 
 
 
@@ -56,8 +56,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Colors.scss';
-@import '../assets/style/Mixin.scss';
+@import '../../assets/style/Colors.scss';
+@import '../../assets/style/Mixin.scss';
 #reviews{
     height: 100vh;
     padding-top: 10vh;

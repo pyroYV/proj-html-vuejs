@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import Button from "./Commons/Button.vue";
-import ProductCard from "./Commons/ProductCard.vue";
+import Button from "../Commons/Button.vue";
+import ProductCard from "./Cards/ProductCard.vue";
 export default {
     components:{
         Button,
@@ -60,14 +60,14 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import '../assets/style/Colors.scss';
-@import '../assets/style/MixIn.scss';
+@import '../../assets/style/Colors';
+@import '../../assets/style/MixIn.scss';
 
 #products{
     height: 110vh;
     margin: 2rem 0 0 0;
     padding-top: 8rem;
-    background-image: url('../../public/Img/avadabarbers-reviewsbackground.jpg');
+    background-image: url('../../../public/Img/avadabarbers-reviewsbackground.jpg');
     background-size: cover;
     .content{
         h1{

@@ -22,8 +22,8 @@
 </template>
 
 <script>
-import Button from "./Commons/Button.vue";
-import ServiceCard from "./Commons/ServiceCard.vue";
+import Button from "../Commons/Button.vue";
+import ServiceCard from "./Cards/ServiceCard.vue";
 export default {
     components:{
         Button,
@@ -57,8 +57,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Colors.scss';
-@import '../assets/style/MixIn.scss';
+@import '../../assets/style/Colors';
+@import '../../assets/style/MixIn.scss';
 #services{
     margin-bottom: 20rem;
     .content{

@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import Button from "./Commons/Button.vue";
+import Button from "../Commons/Button.vue";
 export default {
     components:{
         Button
@@ -86,7 +86,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Colors.scss';
+@import '../../assets/style/Colors.scss';
 
 footer{
     height: 60vh;

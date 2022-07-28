@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Button from "./Commons/Button.vue";
+import Button from "../Commons/Button.vue";
 export default {
     components:{
         Button,
@@ -22,11 +22,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/Colors.scss';
+@import '../../assets/style/Colors';
 
 #about{
     height: 50vh;
-    background-image: url('../../public/Img/avadabarbers-about-introbackground.jpg');
+    background-image: url('../../../public/Img/avadabarbers-about-introbackground.jpg');
     background-size: cover;
     position: relative;
     .content{
