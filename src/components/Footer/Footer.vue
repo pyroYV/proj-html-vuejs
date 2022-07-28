@@ -41,19 +41,24 @@
             </div>
         </div>
     </div>
-        <div class="text-center d-flex justify-content-center align-items-center" id="copyright">
+        <div class="text-center d-flex justify-content-center align-items-center position-relative" id="copyright">
             <p>
               &copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
             </p>
+    <ToTop
+    
+    />
         </div>
   </footer>
 </template>
 
 <script>
 import Button from "../Commons/Button.vue";
+import ToTop from '../Commons/ToTop.vue';
 export default {
     components:{
-        Button
+        Button,
+        ToTop,
     },
     data() {
         return {

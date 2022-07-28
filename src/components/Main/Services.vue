@@ -1,24 +1,18 @@
 <template>
-  <div class="container-lg text-center" id="services">
-    <div class="content d-flex justify-content-center flex-column">
-        <h6>
-            Mens grooming
-        </h6>
-        <h1>
-            Services
-        </h1>
+    <div class="container-lg text-center" id="services">
+        <div class="content d-flex justify-content-center flex-column">
+            <h6>
+                Mens grooming
+            </h6>
+            <h1>
+                Services
+            </h1>
+        </div>
+        <div class="row p-1">
+            <ServiceCard class="col-4" v-for="(item, index) in services" :key="index" :item='item' />
+        </div>
+        <Button btnContent='Read about our services' />
     </div>
-    <div class="row p-1">
-    <ServiceCard  class="col-4"
-    v-for="(item, index) in services" :key="index"
-    :item = 'item'
-    />
-    </div>
-    <Button
-    btnContent = 'Read about our services'
-    />
- 
-  </div>
 </template>
 
 <script>
@@ -56,22 +50,26 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '../../assets/style/Colors';
+<style lang="scss"scoped>@import '../../assets/style/Colors';
 @import '../../assets/style/MixIn.scss';
-#services{
+
+#services {
     margin-bottom: 20rem;
-    .content{
+
+    .content {
         margin: 0 auto;
         margin-top: 5rem;
-        h1{
+
+        h1 {
             color: $TextGrey;
             font-size: 6rem;
         }
     }
-    .row{
+
+    .row {
         margin-top: 5rem;
         margin-bottom: 5rem;
     }
 }
+
 </style>

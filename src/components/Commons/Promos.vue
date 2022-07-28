@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../assets/style/Colors.scss';
+@import '../../assets/style/Colors.scss';
 
 #promos{
     position: fixed;

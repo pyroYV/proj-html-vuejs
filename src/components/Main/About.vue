@@ -21,39 +21,42 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '../../assets/style/Colors';
+<style lang="scss"scoped>@import '../../assets/style/Colors';
 
-#about{
+#about {
     height: 50vh;
     background-image: url('../../../public/Img/avadabarbers-about-introbackground.jpg');
     background-size: cover;
     position: relative;
-    .content{
-        
+
+    .content {
+
         margin: 0 auto;
         margin-top: 10vh;
     }
-    h1{
+
+    h1 {
         font-family: 'Abril Fatface', sans-serif;
         font-size: 5rem;
         color: $TextWhite;
         margin-bottom: 3rem;
     }
-    h6{
+
+    h6 {
         color: $BrandColor;
         font-size: 1.5rem;
         font-weight: bold;
     }
-    .triangle-bg{
-    
-    position: absolute;
-    bottom: 0;
-    border-style: solid;
-    border-width: 0 50vw 100px 50vw;
-    border-color: transparent transparent #ffffff transparent;
-    display: inline-block;
+
+    .triangle-bg {
+
+        position: absolute;
+        bottom: 0;
+        border-style: solid;
+        border-width: 0 50vw 100px 50vw;
+        border-color: transparent transparent #ffffff transparent;
+        display: inline-block;
     }
 }
-    
+
 </style>

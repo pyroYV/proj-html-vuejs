@@ -1,31 +1,25 @@
 <template>
-  <div class="d-flex text-center flex-column mt-5" id="reviews">
-    <div class="content">
-        <h6>
-            What people say
-        </h6>
-        <h1>
-            Reviews
-        </h1>
-    </div>
-    <div class="container-lg mt-5">
-        <div class="row justify-content-center">
-            <ReviewCard
-            class="col-3 me-5"
-            v-for="(item, index) in reviews" :key="index"
-            :item = 'item'
-            />
+    <div class="d-flex text-center flex-column mt-5" id="reviews">
+        <div class="content">
+            <h6>
+                What people say
+            </h6>
+            <h1>
+                Reviews
+            </h1>
+        </div>
+        <div class="container-lg mt-5">
+            <div class="row justify-content-center">
+                <ReviewCard class="col-3 me-5" v-for="(item, index) in reviews" :key="index" :item='item' />
+            </div>
+        </div>
+        <div class="triangle-bg">
         </div>
     </div>
-    <div class="triangle-bg">
-    </div>
-  </div>
 </template>
 
 <script>
 import ReviewCard from "./Cards/ReviewCard.vue";
-
-
 
 export default {
     components:{
@@ -55,34 +49,39 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '../../assets/style/Colors.scss';
+<style lang="scss"scoped>@import '../../assets/style/Colors.scss';
 @import '../../assets/style/Mixin.scss';
-#reviews{
+
+#reviews {
     height: 100vh;
     padding-top: 10vh;
     position: relative;
-    .content{
-            margin: 0 auto;
-        h1{
+
+    .content {
+        margin: 0 auto;
+
+        h1 {
             font-family: 'Abril Fatface', sans-serif;
             font-size: 5rem;
             color: $TextGrey;
             margin-bottom: 3rem;
         }
-        h6{
+
+        h6 {
             color: $BrandColor;
             font-size: 1.5rem;
             font-weight: bold;
         }
     }
-    .triangle-bg{
-    position: absolute;
-    bottom: -100px;
-    border-style: solid;
-    border-width: 100px 50vw 0 50vw;
-    border-color: white transparent transparent transparent;
-    display: inline-block;
+
+    .triangle-bg {
+        position: absolute;
+        bottom: -100px;
+        border-style: solid;
+        border-width: 100px 50vw 0 50vw;
+        border-color: white transparent transparent transparent;
+        display: inline-block;
     }
 }
+
 </style>

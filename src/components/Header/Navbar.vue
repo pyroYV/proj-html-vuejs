@@ -1,17 +1,17 @@
 <template>
-<div class="row justify-content-between pt-4">
+  <div class="row justify-content-between pt-4">
     <div class="col-1 ps-4">
-      <img id="header-logo" src="/Img/avadabarbers-logo-x1.png" alt="">
+      <img id="header-logo" src="/Img/avadabarbers-logo-x1.png" alt="Avada Barbers logo">
     </div>
-  <div class="col-2">
-    <ul>
+    <div class="col-2">
+      <ul>
         <a href="item.link" v-for="(item, index) in NavbarItems" :key="index">
           <li :class="item.class">
           </li>
         </a>
-    </ul>
+      </ul>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
