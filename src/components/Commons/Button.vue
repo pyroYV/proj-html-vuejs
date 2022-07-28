@@ -1,6 +1,6 @@
 <template>
 
-  <a href="#" class="bottone">
+  <a href="#" class="bottone" :class="fs" >
     {{btnContent}}
   </a>
 
@@ -9,7 +9,8 @@
 <script>
 export default {
     props:{
-        btnContent: String
+        btnContent: String,
+        fs:'string'
     }
 }
 </script>
@@ -20,7 +21,7 @@ export default {
 
 .bottone{
     text-align: center;
-    padding: 0.8rem 2.5rem;
+    padding: 0.8rem 2rem;
     border: 3px solid;
     border-color: $BrandColor;
     color: $BrandColor !important;
