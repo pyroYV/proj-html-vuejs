@@ -43,20 +43,7 @@ export default {
     },
     data() {
         return {
-            NavbarItems:[
-                {
-                    item:1,
-                    link:"#",
-                    class:'bi bi-cart-fill'
-
-                },
-                {
-                    item:2,
-                    link:'#',
-                    class:'bi bi-list bi-2x'
-                }
-            ],
-            Logopath:""
+            
 
         }
     },
