@@ -37,12 +37,15 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss">@import '../../assets/style/Colors.scss';
 
 ul{
   li{
     padding: 0.5rem;
     font-size: 2rem;
+    &:hover{
+                color: $BrandColor;
+            }
   }
 }
 </style>

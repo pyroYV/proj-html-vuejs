@@ -116,6 +116,9 @@ footer{
             padding: 0;
             li{
                 font-size: 1rem;
+            &:hover{
+                color: $BrandColor;
+            }
             }
         }
     }
