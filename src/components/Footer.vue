@@ -41,8 +41,10 @@
             </div>
         </div>
     </div>
-        <div class="" id="copyright">
-            try
+        <div class="text-center d-flex justify-content-center align-items-center" id="copyright">
+            <p>
+              &copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
+            </p>
         </div>
   </footer>
 </template>
@@ -89,6 +91,7 @@ export default {
 footer{
     height: 60vh;
     background-color: #121314;
+    color: $TextFooter;
     #copyright{
         height: 10vh;
         background-color: #161718;
@@ -97,7 +100,7 @@ footer{
         img{
             width: 50%;
         }
-        color: $TextGrey;
+        
         line-height: 0.5rem;
         h5{
             color:$BrandColor;
